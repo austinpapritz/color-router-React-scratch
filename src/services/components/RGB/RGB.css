@@ -4,10 +4,16 @@
   grid-template-rows: 50% 50%;
 }
 
+@font-face {
+  font-family: 'Wavy';
+  src: url('../../../../public/Wavy.ttf');
+}
+
 .btn {
+  font-family: Wavy, Times, serif;
   font-size: 2rem;
   width: 14.2857%;
-  height: 75px;
+  height: 90px;
   border-radius: 0rem;
   border: none;
   background: rgb(0, 0, 0);
@@ -48,4 +54,5 @@
 
 .color-span {
   font-size: 5rem;
+  font-family: 'Wavy';
 }
