@@ -10,7 +10,7 @@ export default function RGB() {
   const greenInt = Number(green);
   const blueInt = Number(blue);
 
-  if (isNaN(redInt) || isNaN(redInt) || isNaN(redInt)) {
+  if (isNaN(redInt) || isNaN(greenInt) || isNaN(blueInt)) {
     history.push('/404');
   } else {
     return (
