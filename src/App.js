@@ -1,6 +1,6 @@
 import './App.css';
 
-import { BrowserRouter, NavLink, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import RGB from './services/components/RGB/RGB.js';
 import NotFound from './services/components/NotFound.js';
