@@ -4,17 +4,13 @@
   grid-template-rows: 50% 50%;
 }
 
-.color-span {
-  font-size: 5rem;
-}
-
 .btn {
   font-size: 2rem;
-  width: 33.33%;
-  height: 50px;
+  width: 14.2857%;
+  height: 75px;
   border-radius: 0rem;
-  border: double grey 3px;
-  background: rgb(95, 70, 238);
+  border: none;
+  background: rgb(0, 0, 0);
 }
 
 .btn:hover {
@@ -32,4 +28,24 @@
 
 .yellow-btn {
   color: rgb(244, 210, 55);
+}
+
+.green-btn {
+  color: rgb(55, 244, 55);
+}
+
+.blue-btn {
+  color: rgb(55, 135, 244);
+}
+
+.indigo-btn {
+  color: rgb(75, 0, 135);
+}
+
+.violet-btn {
+  color: rgb(244, 135, 244);
+}
+
+.color-span {
+  font-size: 5rem;
 }

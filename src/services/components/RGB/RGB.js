@@ -28,6 +28,18 @@ export default function RGB() {
           <NavLink to={'/rgb/244/210/55'}>
             <button className="yellow-btn btn">Yellow</button>
           </NavLink>
+          <NavLink to={'/rgb/55/244/55'}>
+            <button className="green-btn btn">Green</button>
+          </NavLink>
+          <NavLink to={'/rgb/55/135/244'}>
+            <button className="blue-btn btn">Blue</button>
+          </NavLink>
+          <NavLink to={'/rgb/75/0/135'}>
+            <button className="indigo-btn btn">Indigo</button>
+          </NavLink>
+          <NavLink to={'/rgb/244/135/244'}>
+            <button className="violet-btn btn">Violet</button>
+          </NavLink>
         </div>
         <span className="color-span">
           rgb({redInt}, {greenInt}, {blueInt})
