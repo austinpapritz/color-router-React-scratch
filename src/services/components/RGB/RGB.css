@@ -1,6 +1,35 @@
 .alpha-container {
   height: 100vh;
+  display: grid;
+  grid-template-rows: 50% 50%;
 }
 
-.rgb-container {
+.color-span {
+  font-size: 5rem;
+}
+
+.btn {
+  font-size: 2rem;
+  width: 33.33%;
+  height: 50px;
+  border-radius: 0rem;
+  border: double grey 3px;
+  background: rgb(95, 70, 238);
+}
+
+.btn:hover {
+  background: turquoise;
+  cursor: pointer;
+}
+
+.red-btn {
+  color: rgb(244, 55, 55);
+}
+
+.orange-btn {
+  color: rgb(244, 135, 55);
+}
+
+.yellow-btn {
+  color: rgb(244, 210, 55);
 }

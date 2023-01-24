@@ -20,15 +20,18 @@ export default function RGB() {
       >
         <div className="rgb-container">
           <NavLink to={'/rgb/244/55/55'}>
-            <button className="red-div">Red</button>
+            <button className="red-btn btn">Red</button>
           </NavLink>
           <NavLink to={'/rgb/244/135/55'}>
-            <button className="orange-div">Orange</button>
+            <button className="orange-btn btn">Orange</button>
           </NavLink>
           <NavLink to={'/rgb/244/210/55'}>
-            <button className="yellow-div">Yellow</button>
+            <button className="yellow-btn btn">Yellow</button>
           </NavLink>
         </div>
+        <span className="color-span">
+          rgb({redInt}, {greenInt}, {blueInt})
+        </span>
       </div>
     );
   }
