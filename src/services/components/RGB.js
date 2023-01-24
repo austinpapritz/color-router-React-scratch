@@ -1,5 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-export default function Color1() {
-  return <div>Color1</div>;
+export default function RGB() {
+  return <div>RGB</div>;
 }

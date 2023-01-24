@@ -8,15 +8,13 @@ import NotFound from './services/components/NotFound.js';
 function App() {
   return (
     <div className="App">
-      <main>
-        <h2>Pick a Color!</h2>
-        <BrowserRouter>
-          <Switch>
-            <Route exact path="/:red/:green/:blue" component={RGB} />
-            <Route exact path="*" component={NotFound} />
-          </Switch>
-        </BrowserRouter>
-      </main>
+      <Header />
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/:red/:green/:blue" component={RGB} />
+          <Route exact path="*" component={NotFound} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
